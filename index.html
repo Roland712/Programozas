@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weboldal logikai részeinek meghatározása</title>
+    <style>
+        section {
+            border: 2px solid brown;
+            margin: 5px;
+            padding: 5px 20px;
+        }
+
+        article {
+            background-color: lightgoldenrodyellow;
+        }
+
+        section>p {
+            font-size: 2em;
+            color: red;
+        }
+
+        header {
+            background-color: peru;
+            height: 2cm;
+            text-align: center;
+        }
+
+        nav {
+            width: 80%;
+            border: double 4px darkred;
+            margin: auto;
+        }
+
+        nav>ul>li {
+            display: inline;
+            background-color: orange;
+            color: red;
+
+        }
+
+        footer {
+            background-color: springgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <header><img src="Hír_TV.png" height="85" width=""></header>
+    <nav>
+        <h2>
+            Híreink
+        </h2>
+        <ul>
+            <li><a href="index.html#hírek">Belföldi hírek</a></li>
+            <li><a href="index.html#sport">Sport események</a></li>
+            <li><a href="index.html#egyéb">További híreink</a></li>
+        </ul>
+    </nav>
+    <section>
+        <p>Kiemelt híreink</p>
+
+        <section>
+            <p><a id="hírek">Belföldi hírek</a></p>
+
+            <article>
+                <h2>Látványos videó készült az új magyar harckocsik lövészetéről</h2>
+                <p>
+                    A harcjárművek az MH 25. Klapka György Lövészdandár 11. Harckocsizászlóaljának kötelékébe
+                    csatlakoztak,
+                    ezért Tatán találkozhatunk velük. A Leopardok átadásáról élőben tudósítottunk:
+                </p>
+            </article>
+
+            <article>
+                <h2>A Magyar Telekom történetének legjelentősebb kötvénykibocsátását hajtotta végre</h2>
+                <p>A Magyar Telekom által tartott mai kötvényaukción:</p>
+                <ul>
+                    <li>a benyújtott összes ajánlat 96,95 milliárd forint volt, </li>
+                    <li>végül a vállalat 70,83 milliárd forint forrást vont be, </li>
+                    <li>a kötvények futamideje 7 év és fix kamatozásúak,</li>
+                    <li> az aukción 1,26 százalékos átlaghozam alakult ki.</li>
+                </ul>
+                <p>A Magyar Telekom vezérigazgatójának, Rékasi Tibornak a nyilatkozata szerint:</p>
+            </article>
+
+            <article>
+                <h2>Müller Cecília elmondta, mely magyar városokban robbanhat be a járvány a következő napokban
+                </h2>
+                <p>
+                    A naponta közzétett számadatokon túl számos egyéb számadat, elemzés, járványgörbe vizsgálat előtérbe
+                    kerül, megtárgyalásra kerül, az operatív törzs figyelemmel kíséri a változásokat, a járvány
+                    dinamikáját.
+                    Fontos a döntések meghozatalánál az egészségügyi rendszer terheltsége, de számos más szempont is
+                    van. Az
+                    operatív törzs megfogalmazza a javaslatait és a kormány dönt. A holnapi kormányülésen vizsgálják
+                    felül a
+                    döntéseket, mert eltelt két hét a szigorúbb szabályok bevezetése óta – mondta el Müller Cecília.
+                </p>
+            </article>
+
+        </section>
+
+        <section>
+            <p><a id="sport">Sport események </a></p>
+            <article>
+                <h2>Fekvenyomóink lenyomták a világot</h2>
+                <p>A Magyar Erőemelő Szövetség információi szerint a klasszikus kategóriában a felnőtteknél Szabó Ágnes
+                    (Orosházi Toldi SE, +84 kg), a masters mezőnyben pedig Lombosi Melinda (+84kg, Erőművek SE) és
+                    Cserna János (+120 kg, Marvel Team) szerzett világbajnoki aranyérmet.
+                </p>
+                <p>
+                    Az EQ kategóriában a junioroknál Balog Nátàn (Marvel Team, 74 kg) világbajnok lett, akárcsak Véró
+                    Alex, aki a klasszik mezőnyben, az Orosházi Toldi SE színeiben, a +120 kilósok között lett
+                    aranyérmes.</p>
+            </article>
+            <article>
+                <h2>Számítógép fog pontozni a torna-vb-n</h2>
+                <p>Fontos szerepet tölt majd be a júniusi junior torna-vb a sportág fejlesztésében. A győri
+                    világversenyen is alkalmaznak egy olyan pontozó-szoftvert, melyet a Fujitsu japán elektronikai
+                    vállalat gyártott, és amelyet az egyes szerekre telepítenek. A rendszer ismeri majd a gyakorlatokat,
+                    és azok végén azonnal javasol egy pontszámot a pontozóbíróknak.</p>
+                <p>Az előzetes tervek szerint a június 27-én kezdődő győri vb-n a lányoknál az ugrás és a gerenda, a
+                    fiúknál pedig a lólengés, a gyűrű és az ugrás kap elektronikus pontozó rendszert. A szoftver
+                    tényleges bevezetéséig még hosszú tesztelésekre és egyeztetésekre van szükség. Az első junior
+                    torna-világbajnokságot június 27. és 30. között rendezik meg Győrben.</p>
+            </article>
+            <article>
+                <h2>Meghalt a hatszoros Európa-bajnok asztaliteniszezőnk</h2>
+                <p>Meghalt Magos Judit, az egyik legkiválóbb magyar női asztaliteniszező, aki hatszor nyert korábban
+                    Európa-bajnokságot. 1951. február 19-én született Budapesten. A KSI-ben, majd a Statisztikában
+                    pingpongozott, később Németországba igazolt. Előbb az ATSV Saarbrücken, 1985-ban visszatért az
+                    ESMTK-ba, 1987-től majd megint a német Elversberg játékosa volt, 1989-ben vonult vissza.
+                    <br>1972-ben női párosban és csapatban, 1974-ben egyesben és női párosban, 1978-ban egyesben és
+                    csapatban lett Európa-bajnok. Az Eb-n még három ezüstöt és két bronzot is nyert. A magyar
+                    válogatottal kétszer negyedik és kétszer ötödik lett a világbajnokságon. Tizenháromszor nyerte meg a
+                    Statisztikával a BEK-et.
+                    <br>Egyike volt azon ritka európai játékosoknak, aki tollszárfogással játszott és ebben tényleg
+                    világklasszissá nőtte ki magát. 2015-ben beválasztották a sportág Hírességek Csarnokába.
+
+                </p>
+            </article>
+        </section>
+        <section>
+            <p><a id="egyéb">Esport hírek</a></p>
+            <article>
+
+                <h2>Végre visszatér a G2-ba kennyS!</h2>
+                <p>Lassan egy éve már, hogy kennyS kispadra került a G2-nál, azóta sem láttuk őt tétmeccsen játszani.
+                    Rendszeresen streamel, építi a közösségét, de versenyen március óta nem volt. Sokak szerint most
+                    bőven
+                    beférne a G2-ba, míg mások szerint hiába lő embertelen frageket FPL-ben, az utóbbi 2 év
+                    bebizonyította,
+                    hogy a profik között eljárt már felette az idő.<br>
+                    Akárhogy is, kennyS most végre visszatér. Újra profi meccsen játszik majd, újra G2 mezben, de sajnos
+                    csak rövid ideig. December 2. és 12. között jön majd az IEM Winter, ahol a G2 is a résztvevő
+                    csapatok
+                    között lesz.</p>
+            </article>
+            <article>
+                <h2>Halo Infinite: pár napja jelent csak meg, de már komoly gondot okoznak a csalók</h2>
+                <p>November 15-étől érhető el a Halo Infinite nyílt bétája, a játék pedig nagy sikernek örvend: csak a
+                    Steam platformján (a SteamDB információi szerint) minden este 200 ezernél is több játékost tud
+                    bevonzani, és ebben a létszámban a konzolos játékosok nincsenek is benne. Úgy tűnik, a december 8-i
+                    megjelenés előtt már népszerű a 343 Industries legújabb címe - sajnos azonban ez azt is jelenti,
+                    hogy a sportszerűtlenebb játékosok is nagyobb létszámban vannak jelen.
+
+                    Azáltal, hogy teljesen cross-platform a játék, a konzolos játékosok is megtapasztalhatják a
+                    PC-sekkel együtt, mennyien próbálnak tisztességtelen előnyre szert tenni a multi során. Egy
+                    Twitter-felhasználó például arról számolt be, hogy az egyik ellenfele a falon keresztül is pontosan
+                    meg tudta határozni, épp hol van pontosan.</p>
+            </article>
+        </section>
+    </section>
+    <footer>
+        <p>Készítette: Papik Roland</p>
+        Forrás:<a href="https://index.hu/" >Index.hu</a>
+        <a href="https://esport1.hu/">esport1.hu</a>
+    </footer>
+</body>
+
+</html>
